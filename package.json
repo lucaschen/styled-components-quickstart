@@ -1,0 +1,20 @@
+{
+  "name": "styled-components-quickstart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "~1.12.4"
+  },
+  "scripts": {
+    "watch": "parcel src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "~16.10.2",
+    "styled-components": "~4.4.0"
+  },
+  "alias": {
+    "#components": "./src/components"
+  }
+}
